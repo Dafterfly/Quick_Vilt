@@ -1,5 +1,6 @@
 # Quick_Vilt_Cli
-A little CLI for using the Vision-and-Language Transformer (ViLT) model for visual question answering (answering questions based on an image)
+A little CLI for using the [Vision-and-Language Transformer (ViLT) model by 
+dandelin](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) for visual question answering (answering questions based on an image)
 
 ## Installation
 1. Clone this repo
