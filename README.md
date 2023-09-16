@@ -1,4 +1,4 @@
-# Quick_Vilt_Cli
+# Quick_Vilt
 A little CLI for using the [Vision-and-Language Transformer (ViLT) model by 
 dandelin](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) for visual question answering (answering questions based on an image)
 
