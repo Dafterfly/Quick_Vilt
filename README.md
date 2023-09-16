@@ -58,6 +58,13 @@ Alternatively, you can use the graphical user interface by calling
 ```shell
 python quick_vilt_gui.py
 ```
+
+You can browse for the image on the internet or local file storage using the file dialog that appears when you click 'Browse' or you can type it directly into the box.
+
+You can tick or untick the 'Preview image' box to show or hide the selected image
+
+You can click 'Run Prediction' to answer the question
+
 ![image](https://github.com/Dafterfly/Quick_Vilt/assets/17124333/165e5446-d712-4e91-8d34-8348c6d9afbf)
 
 
