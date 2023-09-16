@@ -1,5 +1,5 @@
 # Quick_Vilt
-A little CLI for using the [Vision-and-Language Transformer (ViLT) model by 
+A CLI and GUI for using the [Vision-and-Language Transformer (ViLT) model by 
 dandelin](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) for visual question answering (answering questions based on an image)
 
 ## Installation
@@ -18,18 +18,23 @@ dandelin](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) for visual que
 You are now ready to use the script
 
 ## Usage
-To use the script call the script can pass these 2 arguments:
-1. ```--image``` or ```i``` can either be an image url from the web or a path stored locally
-2. ```--question``` or ```q``` is the question you'd like to ask
-3. Examples
 
-   Using this image from the COCO dataset as an example
+Using this image from the COCO dataset as an example
    ![5868604848_680662062a_z (Phone)](https://github.com/Dafterfly/Quick_Vilt_Cli/assets/17124333/bf724b2f-a150-4972-ab0e-28e5489b01e1)
 
 
 Direct url: https://farm4.staticflickr.com/3076/5868604848_680662062a_z.jpg
 
 COCO dataset link: https://cocodataset.org/#explore?id=18633
+
+### CLI
+
+To use the command line interface script call the script and pass these 2 arguments:
+1. ```--image``` or ```i``` can either be an image url from the web or a path stored locally
+2. ```--question``` or ```q``` is the question you'd like to ask
+3. Examples
+
+   
 
  * Image from url
 ```shell
@@ -47,3 +52,12 @@ Output
 ```shell
 Predicted answer: 2
 ```
+
+### GUI
+Alternatively, you can use the graphical user interface by calling
+```shell
+python quick_vilt_gui.py
+```
+![image](https://github.com/Dafterfly/Quick_Vilt/assets/17124333/165e5446-d712-4e91-8d34-8348c6d9afbf)
+
+
