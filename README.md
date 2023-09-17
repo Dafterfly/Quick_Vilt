@@ -27,6 +27,8 @@ Direct url: https://farm4.staticflickr.com/3076/5868604848_680662062a_z.jpg
 
 COCO dataset link: https://cocodataset.org/#explore?id=18633
 
+Note: the first time that you run either the CLI or GUI, the ViLT model will automatically be downloaded onto you computer. This download is 449 MB.
+
 ### CLI
 
 To use the command line interface script call the script and pass these 2 arguments:
